@@ -1,0 +1,23 @@
+val exp=new Regex("([a-zA-Z\\d]+)@([a-zA-Z]+).([a-zA-Z]+)")
+val exp(username,domain,hierarchy)="sangeeta@knoldus.com"
+
+Output:
+username: String = sangeeta
+domain: String = knoldus
+hierarchy: String = com
+
+
+for(i<- 0 to r.length-1 by 2) {
+          var m:Map(r(i) -> r(i+1))
+
+ var m :mutable.Map[String, String]=scala.collection.mutable.Map[String,String]()
+for(i<- 0 to r.length-1 by 2) {
+          m+=r(i) -> r(i+1)
+        }
+
+
+
+/*url match{
+    case UrlParser(x @protocol,y @dom,z @path, w@ m) => println(x+" "+y+" "+z+" "+w)
+    case _ =>println("Invalid URL")
+  }*/
